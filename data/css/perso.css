@@ -31,24 +31,22 @@ background-repeat: repeat-x repeat-y;
 
 
 p {
-	font-family: 'Passion One', cursive;
+	font-family: "Roboto",sans-serif
+	color: grey;
 	font-weight: 400;
-	font-size: 2.0em;
+	font-size: 1.3em;
 	line-height: 1em;
-	letter-spacing: 3px;
 	margin-top: 0;
 	text-align: center;
-	color: white;
-	text-shadow: 1px 1px 12px black;
-
+	text-transform: uppercase;
 }
 
 button, input, optgroup, select, textarea, .switch {
-	font-family: 'Passion One', cursive;
-	letter-spacing: 3px;
-	color: white;
+	font-family: "Roboto",sans-serif
+	color: grey;
 	text-align: center;
-	font-size: 2.0em;
+	font-size: 1.0em;
+	text-transform: uppercase;
 }
 
 
@@ -57,11 +55,11 @@ button, input, optgroup, select, textarea, .switch {
 	height:130px;
 	margin:auto;
 	background: rgb(155,155,155); /* Old browsers */
-background: rgb(161,148,80); /* Old browsers */
-background: -moz-linear-gradient(45deg, rgb(161,148,80) 0%, rgb(249,239,199) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(45deg, rgb(161,148,80) 0%,rgb(249,239,199) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(45deg, rgb(161,148,80) 0%,rgb(249,239,199) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a19450', endColorstr='#f9efc7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */; /* IE6-9 fallback on horizontal gradient */;
+	background: rgb(161,148,80); /* Old browsers */
+	background: -webkit-linear-gradient(bottom left, rgb(161,148,80) 0%, rgb(249,239,199) 100%);
+	background: -o-linear-gradient(bottom left, rgb(161,148,80) 0%, rgb(249,239,199) 100%);
+	background: linear-gradient(to top right, rgb(161,148,80) 0%, rgb(249,239,199) 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a19450', endColorstr='#f9efc7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */; /* IE6-9 fallback on horizontal gradient */;
 	margin-bottom: 50px;
 	border-radius: 5px;
 	border: 8px #C18A30 solid;
@@ -89,4 +87,14 @@ h2 {
 
 .bloc {
 	padding-top: 20px;
+}
+
+.middle {
+	background-color: white;
+	margin-left: -200px;
+  	margin-right: -200px;
+	margin-bottom: 40px;
+	padding: 20px 20px 0px 20px;
+	height: 102px;
+	box-shadow: 0px 0px 50px black;
 }
