@@ -18,82 +18,97 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
         <link href="data/css/perso.css" rel="stylesheet" type="text/css">
 
+<script>
+$(document).ready(function() {
+    $('select').material_select();
+  });
+</script>
         
     </head>
 
 
 
     <body>
-        <div class="cover">
-        <div class="cover-image plus" style="background-image: url(data/img/roue.jpg)"></div>
+     
+    <div class="cover">
+        <div class="cover-image plus" style="background-image: url(data/img/roue.jpg)">
+    </div>
+
+          
+    <div class="container">
             
-        <div class="container">
-            
 
-            <div class="row">
-                <div class="col s12">
-                    <p class="titre">ROYAL SIMPLON CASINO</p>
-                    <p class="soustitre">Exercice du jeu de la roulette</p>
-                </div>
-            
-            <div class="row">
-                <div class="col s12">
-                    <p class="resultat">50</p>
-                   </div>
-                
-
-                <div class="col s4">
-                    <p>Pair ou impair, </br>il faut choisir !</p>
-                        <!-- Switch -->
-                        <div class="switch">
-                            <label>PAIR<input type="checkbox">
-                                <span class="lever"></span>IMPAIR
-                            </label>
-                        </div>
-                </div>
-                                                                    
-                
-                <div class="col s4">
-                    <p class="text-center">Rien ne va plus,<br> les jeux sont fait !</p>
-                        <form class="form-horizontal" role="form">
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="inputEmail3" placeholder="PLACER VOTRE MISE">
-                            </div>
-                        </form>
-                </div>
-                       
-                
-
-                <div class="col s4">
-                    <div class="collection">
-                        <a href="#!" class="collection-item">Mon compte<span class="badge">2500 €</span></a>
-                        <a href="#!" class="collection-item">La banque<span class="badge">50 €</span></a>
-                    </div>
-                </div>
-
-                    <div class="col s12 center">
-                        <a class="waves-effect waves-light btn-large"></i>LANCER LA ROULETTE</a>
-                    </div>
-      
-
-
-
-  <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
-    <a class="btn-floating btn-large red">
-      <i class="large material-icons">mode_edit</i>
-    </a>
-    <ul>
-      <li><a href="mailto:godiveau.com" class="btn-floating blue"><i class="material-icons">email</i></a></li>
-    </ul>
-  </div>
-
-
+        <div class="row">
+            <div class="col s12">
+                <p class="titre">ROYAL SIMPLON CASINO</p>
+                <p class="soustitre">Exercice du jeu de la roulette</p>
             </div>
-        
-        
-        
-        
+        </div>
+            
+        <div id="container2">
+            <div id="roue">
+                <h2 class="numero">PERDU !</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <p>Pair ou impair </br>il faut choisir</p>
+                    <div class="switch">
+                        <label>PAIR<input type="checkbox">
+                            <span class="lever"></span>IMPAIR
+                        </label>
+                    </div>
+            </div>
+       
+            <div class="col s4">
+                <p class="text-center">Choisissez </br>votre chiffre</p>
+                      <div class="input-field">
+                        <select>
+                          <option value="" disabled selected>Choisissez un chiffre</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                        </select>
+            </div>
+            </div>
+                       
+            <div class="col s4">
+                <p class="text-center">Misez et les<br>jeux sont fait</p>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="PLACER VOTRE MISE">
+                        </div>
+                    </form>
+            </div>
+            
+            <div class="col s12 center">
+                <div class="bloc">
+                    <a class="waves-effect waves-light btn-large"></i>LANCER LA ROULETTE</a>
+                </div>
+            </div>
     
+    <div class="row">
+        <div class="col s12">
+            <div class="collection">
+                <a href="#!" class="collection-item">Mon compte<span class="badge">100 €</span></a>
+                <a href="#!" class="collection-item">La banque<span class="badge">100 €</span></a>
+            </div>
+        </div>
+    </div>
+
+</div>
 
 
+  
+
+    <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
+        <a class="btn-floating btn-large red">
+            <i class="large material-icons">mode_edit</i>
+        </a>
+            <ul>
+                <li><a href="mailto:godiveau.com" class="btn-floating blue"><i class="material-icons">email</i></a></li>
+            </ul>
+    </div>  
+        
 </body></html>

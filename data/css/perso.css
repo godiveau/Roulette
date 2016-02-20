@@ -10,7 +10,7 @@ background-repeat: repeat-x repeat-y;
 	letter-spacing: 3px;
 	margin-bottom:0;
 	text-align: center;
-	color: white;
+	color: #FF3100;
 	text-shadow: 1px 1px 12px black;
 }
 
@@ -20,11 +20,12 @@ background-repeat: repeat-x repeat-y;
 	font-size: 2.0em;
 	letter-spacing: 3px;
 	margin-top: 15px;
-	margin-bottom: 150px;
+	margin-bottom: 15px;
 	text-align: center;
 	color: white;
 	text-shadow: 1px 1px 12px black;
 	text-transform: uppercase;
+	padding-bottom: 15px;
 
 }
 
@@ -48,10 +49,44 @@ button, input, optgroup, select, textarea, .switch {
 	color: white;
 	text-align: center;
 	font-size: 2.0em;
-	margin-left: 0px;
-	margin-right: 0px;
 }
 
-.center {
-	margin-top: 50px;
+
+#container2 {
+	width:450px;
+	height:130px;
+	margin:auto;
+	background: rgb(155,155,155); /* Old browsers */
+background: rgb(161,148,80); /* Old browsers */
+background: -moz-linear-gradient(45deg, rgb(161,148,80) 0%, rgb(249,239,199) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgb(161,148,80) 0%,rgb(249,239,199) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgb(161,148,80) 0%,rgb(249,239,199) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a19450', endColorstr='#f9efc7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */; /* IE6-9 fallback on horizontal gradient */;
+	margin-bottom: 50px;
+	border-radius: 5px;
+	border: 8px #C18A30 solid;
+	box-shadow: 0px 0px 50px black;
+}
+
+h2 {
+	font-family: 'Passion One', cursive;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-size: 6.0em;
+	color: #C18A30;
+	text-align: center;
+	padding-top: 0px;
+	text-shadow: 0px 0px 30px #2B2623;
+	line-height: 70px;
+}
+
+.collection {
+	margin-top: 60px;
+  	margin-left: auto;
+  	margin-right: auto;
+	width: 360px;
+}
+
+.bloc {
+	padding-top: 20px;
 }
