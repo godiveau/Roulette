@@ -1,0 +1,57 @@
+.cover-image {
+background-image: url("data/img/shinedotted.png");
+background-repeat: repeat-x repeat-y;
+}
+
+.titre {
+	font-family: 'Passion One', cursive;
+	font-weight: 700;
+	font-size: 5.0em;
+	letter-spacing: 3px;
+	margin-bottom:0;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 12px black;
+}
+
+.soustitre {
+	font-family: 'Passion One', cursive;
+	font-weight: 400;
+	font-size: 2.0em;
+	letter-spacing: 3px;
+	margin-top: 15px;
+	margin-bottom: 150px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 12px black;
+	text-transform: uppercase;
+
+}
+
+
+p {
+	font-family: 'Passion One', cursive;
+	font-weight: 400;
+	font-size: 2.0em;
+	line-height: 1em;
+	letter-spacing: 3px;
+	margin-top: 0;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 12px black;
+
+}
+
+button, input, optgroup, select, textarea, .switch {
+	font-family: 'Passion One', cursive;
+	letter-spacing: 3px;
+	color: white;
+	text-align: center;
+	font-size: 2.0em;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.center {
+	margin-top: 50px;
+}
