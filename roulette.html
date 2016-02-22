@@ -7,150 +7,126 @@
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Passion+One:700,400' rel='stylesheet' type='text/css'>
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
 
         <!-- Javascripts -->
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
                 
         <!-- CSS -->
         <link href="data/css/roul.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+        <link href="data/css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="data/css/perso.css" rel="stylesheet" type="text/css">
 
-<script>
-$(document).ready(function() {
-    $('select').material_select();
-  });
-</script>
-        
-    </head>
 
-
-
-    <body>
+</head>
+<body>
      
 <div class="cover">
         <div class="cover-image plus" style="background-image: url(data/img/roue.jpg)">
 </div>
 
           
-    <div class="container">
+<div class="container">
             
 
         <div class="row">
-            <div class="col s12">
-                <p class="titre">ROYAL SIMPLON CASINO</p>
-                <p class="soustitre">Exercice du jeu de la roulette</p>
+            <div class="col-lg-12">
+            <div class="logo">Roulette</div>
+                <p class="titre">ROYAL CASINO SIMPLON</p>
             </div>
         </div>
             
-        <div id="container2">
-            <div id="roue">
-
-                    <!-- Input zone affichage du résultat gagné ou operdu -->
-                <form><input type="text" id="resultat">
+        <div class="row">
+            <div class="col-lg-4">
+                <div id="fond-du-winner">
+                    <h2 id="resultat"></h2>
+               </div>
             </div>
         </div>
 
- 
-       <div class="row">
-            <div class="middle">
+       <div class="fond-blanc">        
+            <div class="row">
+                <div class="col-md-4">
+                    <select class="form-control">
+                        <option value="">Pair ou impair ?</option>
+                        <option value="pair">Pair</option>
+                        <option value="impair">Impair</option>
+                    </select>
+                </div>
+
+                <div class="col-md-4">
+                    <select class="form-control">
+                        <option value="">Choissisez votre numéro</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                        <option value="32">32</option>
+                        <option value="33">33</option>
+                        <option value="34">34</option>
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" id="mise" placeholder="Montant de la mise">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-12 text-center bouton">
+                <button type="button" class="btn btn-lg btn-danger btn-block">LANCER LA ROULETTE</button>
+            </div>
+        </div>
             
-
-                <div class="col s4">
-                    <p class="text-center">Pair </br>ou impair ?</p>
-                        <div class="input-field">
-                            <select>
-                                <option value="" disabled selected>Pair ou impair ?</option>
-                                <option value="1">Pair</option>
-                                <option value="2">Impair</option>
-                            </select>
-                        </div>
-                </div>
-       
-                <div class="col s4">
-                    <p class="text-center">Placez votre numéro, rien ne va plus</p>
-                        <div class="input-field">
-                            <select>
-                                <option value="" disabled selected>CHOISIR VOTRE NUMÉRO</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                                <option value="13">13</option>
-                                <option value="14">14</option>
-                                <option value="15">15</option>
-                                <option value="16">16</option>
-                                <option value="17">17</option>
-                                <option value="18">18</option>
-                                <option value="19">19</option>
-                                <option value="20">20</option>
-                                <option value="21">21</option>
-                                <option value="22">22</option>
-                                <option value="23">23</option>
-                                <option value="24">24</option>
-                                <option value="25">25</option>
-                                <option value="26">26</option>
-                                <option value="27">27</option>
-                                <option value="28">28</option>
-                                <option value="29">29</option>
-                                <option value="30">30</option>
-                                <option value="31">31</option>
-                                <option value="32">32</option>
-                                <option value="33">33</option>
-                                <option value="34">34</option>
-                                <option value="35">35</option>
-                                <option value="36">36</option>
-                            </select>
-                        </div>
-                </div>
-                       
-                <div class="col s4">
-                    <p class="text-center">Misez vite, </br>les jeux sont faits</p>
-                        <form class="form-horizontal" role="form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="mise" placeholder="PLACER VOTRE MISE">
-                            </div>
-                        </form>
-                </div>
-                        
-                <div class="col s12 center">
-                    <div class="bloc">
-                        <a class="waves-effect waves-light btn-large"></i>LANCER LA ROULETTE</a>
-                    </div>
-                </div>  
-    
-                <div class="col s12">
-                        <div class="collection">
-                            <a href="#!" class="collection-item">Mon compte<span class="badge">100 €</span></a>
-                            <a href="#!" class="collection-item">La banque<span class="badge">100 €</span></a>
-                        </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banque">
+                        <ul class="list-group">
+                        <li class="list-group-item" "compte">
+                        <span class="badge">100€</span>Mon compte
+                        </li>
+                        <li class="list-group-item" "banque">
+                        <span class="badge">100€</span>La banque
+                        </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+
    
-
-    <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 45px;">
-        <a class="btn-floating btn-large red">
-            <i class="large material-icons">mode_edit</i>
-        </a>
-            <ul>
-                <li><a href="mailto:godiveau@gmail.com" class="btn-floating blue"><i class="material-icons">email</i></a></li>
-            </ul>
-    </div>  
-
 
 <script src="data/js/boom.js"></script>
 </body>

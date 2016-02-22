@@ -3,33 +3,27 @@ background-image: url("data/img/shinedotted.png");
 background-repeat: repeat-x repeat-y;
 }
 
+
+.logo {
+	font-family: 'Sofia', cursive;
+	position: relative;
+	color: white;
+	font-size: 10em;
+	text-align: center;
+	text-shadow: 1px 1px 12px black;
+	margin-bottom: -60px;
+}
+
 .titre {
 	font-family: 'Passion One', cursive;
 	font-weight: 700;
 	font-size: 5.0em;
 	letter-spacing: 3px;
-	margin-bottom:0;
+	margin: 0 0 50 0;
 	text-align: center;
 	color: #FF3100;
 	text-shadow: 1px 1px 12px black;
 }
-
-.soustitre {
-	font-family: 'Passion One', cursive;
-	font-weight: 400;
-	font-size: 2.0em;
-	letter-spacing: 3px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	text-align: center;
-	color: white;
-	text-shadow: 1px 1px 12px black;
-	text-transform: uppercase;
-	padding-bottom: 15px;
-
-}
-
-
 
 
 p {
@@ -43,14 +37,7 @@ p {
 	text-transform: uppercase;
 }
 
-button, input, optgroup, select, textarea, .switch {
-	color: black;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-
-#container2 {
+#fond-du-winner {
 	width:450px;
 	height:130px;
 	margin:auto;
@@ -60,7 +47,7 @@ button, input, optgroup, select, textarea, .switch {
 	background: -o-linear-gradient(bottom left, rgb(161,148,80) 0%, rgb(249,239,199) 100%);
 	background: linear-gradient(to top right, rgb(161,148,80) 0%, rgb(249,239,199) 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a19450', endColorstr='#f9efc7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */; /* IE6-9 fallback on horizontal gradient */;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 	border-radius: 5px;
 	border: 8px #C18A30 solid;
 	box-shadow: 0px 0px 50px black;
@@ -70,54 +57,38 @@ button, input, optgroup, select, textarea, .switch {
 	font-family: 'Passion One', cursive;
 	font-weight: 700;
 	letter-spacing: 3px;
-	font-size: 6.0em;
+	font-size: 6.8em;
 	color: #C18A30;
 	text-align: center;
-	padding-top: 00px;
+	padding-top: 7px;
 	text-shadow: 0px 0px 30px #2B2623;
 	line-height: 70px;
 	height: 120px;
 	border: 0px;
+	background-color: none;
+
 }
 
-.collection {
+.banque {
 	margin-top: 60px;
-  	margin-left: auto;
-  	margin-right: auto;
+  	margin: auto;
 	width: 360px;
 }
 
-
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: black;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: black;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: black;
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: black;
+.bouton{
+	padding-bottom: 50px;
+	width: 250px;
+	padding-right: 0px;
+	padding-left: 0px;
+  	margin: auto;
 }
 
-
-.bloc{
-	padding-top: 10px;
-}
-
-.waves-effect  {
-	margin-top: 20px;
-	box-shadow: 0px 0px 10px grey;
-}
-
-.middle {
+.fond-blanc {
 	background-color: white;
-	margin-left: 0px;
-  	margin-right: 0px;
-	margin-bottom: 40px;
+  	margin: auto;
+	margin-bottom: -20px;
 	padding: 20px 20px 0px 20px;
-	height: 202px;
+	height: 110px;
 	box-shadow: 0px 0px 50px black;
 	border-radius: 5px;
 }

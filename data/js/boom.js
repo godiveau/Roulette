@@ -1,4 +1,4 @@
 $(function() {
-$('#resultat').val('GAGNÉ !')
+$('#resultat').html('GAGNÉ !')
 
 });
