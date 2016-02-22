@@ -11,7 +11,7 @@
 
         <!-- Javascripts -->
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script src="data/js/jquery.js"></script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
                 
         <!-- CSS -->
@@ -48,7 +48,9 @@ $(document).ready(function() {
             
         <div id="container2">
             <div id="roue">
-                <h2 class="numero">RESULT</h2>
+
+                    <!-- Input zone affichage du résultat gagné ou operdu -->
+                <form><input type="text" id="resultat">
             </div>
         </div>
 
@@ -61,7 +63,7 @@ $(document).ready(function() {
                     <p class="text-center">Pair </br>ou impair ?</p>
                         <div class="input-field">
                             <select>
-                                <option value="" disabled selected>Choisissez</option>
+                                <option value="" disabled selected>Pair ou impair ?</option>
                                 <option value="1">Pair</option>
                                 <option value="2">Impair</option>
                             </select>
@@ -72,44 +74,43 @@ $(document).ready(function() {
                     <p class="text-center">Placez votre numéro, rien ne va plus</p>
                         <div class="input-field">
                             <select>
-                                <option value="" disabled selected>PLACER</option>
-                                <option value="1">0</option>
-                                <option value="2">1</option>
-                                <option value="3">2</option>
+                                <option value="" disabled selected>CHOISIR VOTRE NUMÉRO</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
                                 <option value="3">3</option>
-                                <option value="3">4</option>
-                                <option value="3">5</option>
-                                <option value="3">6</option>
-                                <option value="3">7</option>
-                                <option value="3">8</option>
-                                <option value="3">9</option>
-                                <option value="3">10</option>
-                                <option value="3">11</option>
-                                <option value="3">12</option>
-                                <option value="3">13</option>
-                                <option value="3">14</option>
-                                <option value="3">15</option>
-                                <option value="3">16</option>
-                                <option value="3">17</option>
-                                <option value="3">18</option>
-                                <option value="3">19</option>
-                                <option value="3">20</option>
-                                <option value="3">21</option>
-                                <option value="3">22</option>
-                                <option value="3">23</option>
-                                <option value="3">24</option>
-                                <option value="3">25</option>
-                                <option value="3">26</option>
-                                <option value="3">27</option>
-                                <option value="3">28</option>
-                                <option value="3">29</option>
-                                <option value="3">30</option>
-                                <option value="3">31</option>
-                                <option value="3">32</option>
-                                <option value="3">33</option>
-                                <option value="3">34</option>
-                                <option value="3">35</option>
-                                <option value="3">36</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                                <option value="32">32</option>
+                                <option value="33">33</option>
+                                <option value="34">34</option>
+                                <option value="35">35</option>
+                                <option value="36">36</option>
                             </select>
                         </div>
                 </div>
@@ -118,7 +119,7 @@ $(document).ready(function() {
                     <p class="text-center">Misez vite, </br>les jeux sont faits</p>
                         <form class="form-horizontal" role="form">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="inputEmail3" placeholder="VOTRE MISE...">
+                                <input type="text" class="form-control" id="mise" placeholder="PLACER VOTRE MISE">
                             </div>
                         </form>
                 </div>
@@ -141,13 +142,16 @@ $(document).ready(function() {
     </div>
    
 
-    <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
+    <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 45px;">
         <a class="btn-floating btn-large red">
             <i class="large material-icons">mode_edit</i>
         </a>
             <ul>
-                <li><a href="mailto:godiveau.com" class="btn-floating blue"><i class="material-icons">email</i></a></li>
+                <li><a href="mailto:godiveau@gmail.com" class="btn-floating blue"><i class="material-icons">email</i></a></li>
             </ul>
     </div>  
-        
-</body></html>
+
+
+<script src="data/js/boom.js"></script>
+</body>
+</html>
