@@ -73,18 +73,28 @@ p {
 	margin-top: 60px;
   	margin: auto;
 	width: 360px;
+	text-transform: uppercase;
 }
 
-.bouton{
-	padding-bottom: 50px;
-	width: 250px;
-	padding-right: 0px;
-	padding-left: 0px;
-  	margin: auto;
+.badge {
+	background-color: #FF3000;
+}
+
+
+.btn {
+	width: 450px;
+	height: 70px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	margin-bottom: 80px;
+  	box-shadow: 0px 0px 20px black;
+  	border-radius: 10px;
+  	font-size: 2em;
+  	letter-spacing: 3px;
 }
 
 .fond-blanc {
-	background-color: white;
+	background-color: rgba(255, 48, 0, 0.4);
   	margin: auto;
 	margin-bottom: -20px;
 	padding: 20px 20px 0px 20px;
@@ -92,3 +102,30 @@ p {
 	box-shadow: 0px 0px 50px black;
 	border-radius: 5px;
 }
+
+
+
+.table {
+	padding: 5 5 5 5;
+	background-color: white;
+	border-radius: 3px;
+	margin: auto;
+	font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

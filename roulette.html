@@ -21,7 +21,9 @@
 
 </head>
 <body>
-     
+
+
+
 <div class="cover">
         <div class="cover-image plus" style="background-image: url(data/img/roue.jpg)">
 </div>
@@ -38,7 +40,7 @@
         </div>
             
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-12">
                 <div id="fond-du-winner">
                     <h2 id="resultat"></h2>
                </div>
@@ -48,7 +50,7 @@
        <div class="fond-blanc">        
             <div class="row">
                 <div class="col-md-4">
-                    <select class="form-control">
+                    <select class="form-control" "pair">
                         <option value="">Pair ou impair ?</option>
                         <option value="pair">Pair</option>
                         <option value="impair">Impair</option>
@@ -56,9 +58,8 @@
                 </div>
 
                 <div class="col-md-4">
-                    <select class="form-control">
+                    <select class="form-control" "numero">
                         <option value="">Choissisez votre numéro</option>
-                        <option value="0">0</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -95,7 +96,6 @@
                         <option value="34">34</option>
                         <option value="35">35</option>
                         <option value="36">36</option>
-                        <option value="37">37</option>
                     </select>
                 </div>
                 <div class="col-md-4">
@@ -106,8 +106,8 @@
 
 
         <div class="row">
-            <div class="col-lg-12 text-center bouton">
-                <button type="button" class="btn btn-lg btn-danger btn-block">LANCER LA ROULETTE</button>
+            <div class="col-lg-12">
+                <button type="button" class="btn btn-lg btn-danger btn-block" onclick="randomNumber()">LANCER LA ROULETTE</button>
             </div>
         </div>
             
@@ -115,16 +115,18 @@
                 <div class="col-lg-12">
                     <div class="banque">
                         <ul class="list-group">
-                        <li class="list-group-item" "compte">
-                        <span class="badge">100€</span>Mon compte
+                        <li class="list-group-item">
+                        <span class="badge joueur">100</span>Mon compte
                         </li>
-                        <li class="list-group-item" "banque">
-                        <span class="badge">100€</span>La banque
+                        <li class="list-group-item">
+                        <span class="badge bank">100</span>La banque
                         </li>
                         </ul>
                     </div>
                 </div>
             </div>
+
+
 
    
 

@@ -3346,7 +3346,7 @@ fieldset[disabled] .btn-warning.focus {
 }
 .btn-danger {
   color: #fff;
-  background-color: #d9534f;
+  background-color: #FF3000;
   border-color: #d43f3a;
 }
 .btn-danger:focus,
@@ -4923,7 +4923,7 @@ a.label:focus {
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  background-color: #777;
+  background-color: #FF3000;
   border-radius: 10px;
 }
 .badge:empty {
