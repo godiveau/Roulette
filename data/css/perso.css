@@ -38,8 +38,8 @@ p {
 }
 
 #fond-du-winner {
-	width:450px;
-	height:130px;
+	width:300px;
+	height:300px;
 	margin:auto;
 	background: rgb(155,155,155); /* Old browsers */
 	background: rgb(161,148,80); /* Old browsers */
@@ -48,8 +48,8 @@ p {
 	background: linear-gradient(to top right, rgb(161,148,80) 0%, rgb(249,239,199) 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a19450', endColorstr='#f9efc7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */; /* IE6-9 fallback on horizontal gradient */;
 	margin-bottom: 70px;
-	border-radius: 5px;
-	border: 8px #C18A30 solid;
+	border-radius: 50%;
+	border: 15px #C18A30 solid;
 	box-shadow: 0px 0px 50px black;
 }
 
@@ -57,10 +57,10 @@ p {
 	font-family: 'Passion One', cursive;
 	font-weight: 700;
 	letter-spacing: 3px;
-	font-size: 6.8em;
+	font-size: 12.8em;
 	color: #C18A30;
 	text-align: center;
-	padding-top: 7px;
+	padding-top: 80px;
 	text-shadow: 0px 0px 30px #2B2623;
 	line-height: 70px;
 	height: 120px;
@@ -81,7 +81,7 @@ p {
 }
 
 
-.btn {
+#bouton {
 	width: 450px;
 	height: 70px;
   	margin-right: auto;

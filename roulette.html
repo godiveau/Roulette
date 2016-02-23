@@ -1,4 +1,4 @@
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,9 +9,10 @@
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
 
-        <!-- Javascripts -->
-        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
                 
         <!-- CSS -->
         <link href="data/css/roul.css" rel="stylesheet" type="text/css">
@@ -20,6 +21,7 @@
 
 
 </head>
+
 <body>
 
 
@@ -30,7 +32,6 @@
 
           
 <div class="container">
-            
 
         <div class="row">
             <div class="col-lg-12">
@@ -39,7 +40,8 @@
             </div>
         </div>
             
-        <div class="row">
+
+   <div class="row">
             <div class="col-lg-12">
                 <div id="fond-du-winner">
                     <h2 id="resultat"></h2>
@@ -50,16 +52,16 @@
        <div class="fond-blanc">        
             <div class="row">
                 <div class="col-md-4">
-                    <select class="form-control" "pair">
-                        <option value="">Pair ou impair ?</option>
-                        <option value="pair">Pair</option>
-                        <option value="impair">Impair</option>
+                    <select class="form-control" data-toggle="tooltip" data-placement="top" title="La est la question..." id="PairImpair" onchange="selitem()">
+                        <option value="">PAIR OU IMPAIR ?</option>
+                        <option value="0">Pair</option>
+                        <option value="1">Impair</option>
                     </select>
                 </div>
 
                 <div class="col-md-4">
-                    <select class="form-control" "numero">
-                        <option value="">Choissisez votre numéro</option>
+                    <select class="form-control" data-toggle="tooltip" data-placement="top" title="Le bon si possible..." name="SelctedNumber" id="SelctedNumber" onchange="selnumber()">
+                        <option value="">CHOISISSEZ UN NUMÉRO</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -99,7 +101,7 @@
                     </select>
                 </div>
                 <div class="col-md-4">
-                    <input type="text" class="form-control" id="mise" placeholder="Montant de la mise">
+                    <input type="text" class="form-control" alt="somme" id="somme" data-toggle="tooltip" data-placement="top" title="Placez votre argent judicieusement..." placeholder = "MISE">
                 </div>
             </div>
         </div>
@@ -107,19 +109,19 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <button type="button" class="btn btn-lg btn-danger btn-block" onclick="randomNumber()">LANCER LA ROULETTE</button>
+                <button type="button" id="bouton" class="btn btn-lg btn-danger btn-block">LANCER LA ROULETTE</button>
             </div>
         </div>
-            
+           
             <div class="row">
                 <div class="col-lg-12">
                     <div class="banque">
                         <ul class="list-group">
                         <li class="list-group-item">
-                        <span class="badge joueur">100</span>Mon compte
+                        <span class="badge" id="argent" data-toggle="tooltip" data-placement="left" title="Whaouu ! Tu gère !"></span>Mon compte
                         </li>
                         <li class="list-group-item">
-                        <span class="badge bank">100</span>La banque
+                        <span class="badge" id="argentBank" data-toggle="tooltip" data-placement="left" title="Des escrocs ces banquiers !"></span>La banque
                         </li>
                         </ul>
                     </div>
@@ -128,8 +130,19 @@
 
 
 
-   
 
-<script src="data/js/boom.js"></script>
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+
+        $('[data-toggle="tooltip"]').tooltip();   
+
+    });
+
+    </script>
+
+
+   
+<script type="text/javascript" src="data/js/boom.js"></script>
 </body>
 </html>
