@@ -6,6 +6,7 @@ background-repeat: repeat-x repeat-y;
 
 .logo {
 	font-family: 'Sofia', cursive;
+	letter-spacing: -1px;
 	position: relative;
 	color: white;
 	font-size: 10em;
@@ -44,7 +45,7 @@ background-repeat: repeat-x repeat-y;
 	box-shadow: 0px 0px 50px black;
 }
 
-#resultat {
+#displayroulette {
 	font-family: 'Passion One', cursive;
 	font-weight: 400;
 	letter-spacing: 9px;
@@ -89,6 +90,7 @@ background-repeat: repeat-x repeat-y;
   	margin: auto;
 	margin-bottom: -20px;
 	padding: 20px 20px 0px 20px;
+	width: 950px;
 	height: 110px;
 	box-shadow: 0px 0px 50px black;
 	border-radius: 5px;
@@ -105,9 +107,30 @@ background-repeat: repeat-x repeat-y;
 }
 
 
-hi
+#displayresult {
+	font-family: 'Passion One', cursive;
+	font-weight: 400;
+	color: #2D2928;
+	font-size: 2em;
+	letter-spacing: 0.5px;
+	text-align: left;
+	margin-bottom: 0px;
+	background-color: white;
+	width:700px;
+	height: 70px;
+	padding-left: 70px;
+	padding-top: 20px;
+	margin-left: 300px;
+	border-radius: 5px 5px 0px 0px;
 
+}
 
+.croupier{
+	z-index: 1;
+	position: absolute;
+	padding-left: 120px;
+	margin-top: -63px;
+}
 
 .modal {
   text-align: center;
