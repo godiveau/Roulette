@@ -63,9 +63,9 @@ function littlewin(){
 function gameover(){
     enbank();
     if(total <= 0){
-        $displayresult.innerHTML = "Vous avez perdu ! f5 pour rejoue."
+        $displayresult.innerHTML = "Vous avez tout perdu, même le slip ! f5 pour reperdre."
     }else if (totalbank <= 0){
-        $displayresult.innerHTML = "Bravo vous avez fait sauter la banque ! f5 pour rejouer"
+        $displayresult.innerHTML = "Bravo vous avez fait sauter la banque ! je suis viré"
     }
 }
 
@@ -80,10 +80,10 @@ function resultat(){
     nombreroulette();
     amiser();
     if((roulette != $nvaleur) && ((roulette % 2) != $valeur) || (roulette === 0)){
-        $displayresult.innerHTML = "Vous avez perdu";
+        $displayresult.innerHTML = "Vous avez salement perdu, ça va ?";
         loose();
     }else if(roulette == $nvaleur){
-        $displayresult.innerHTML = "Vous avez gagné 36 fois votre mise";
+        $displayresult.innerHTML = "Vous avez gagné 36 fois votre mise, coup de bol.";
         win();
     }else{
         $displayresult.innerHTML = "Vous avez gagné 2 fois votre petite mise, content ? ";
