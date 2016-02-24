@@ -19,27 +19,18 @@ background-repeat: repeat-x repeat-y;
 	font-weight: 700;
 	font-size: 5.0em;
 	letter-spacing: 3px;
-	margin: 0 0 50 0;
+	margin: 0 0 20 0;
 	text-align: center;
 	color: #FF3100;
 	text-shadow: 1px 1px 12px black;
 }
 
 
-p {
-	font-family: "Roboto",sans-serif
-	color: grey;
-	font-weight: 400;
-	font-size: 1.3em;
-	line-height: 1.2em;
-	margin-top: 0;
-	text-align: center;
-	text-transform: uppercase;
-}
+
 
 #fond-du-winner {
-	width:300px;
-	height:300px;
+	width:350px;
+	height:350px;
 	margin:auto;
 	background: rgb(155,155,155); /* Old browsers */
 	background: rgb(161,148,80); /* Old browsers */
@@ -47,7 +38,7 @@ p {
 	background: -o-linear-gradient(bottom left, rgb(161,148,80) 0%, rgb(249,239,199) 100%);
 	background: linear-gradient(to top right, rgb(161,148,80) 0%, rgb(249,239,199) 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a19450', endColorstr='#f9efc7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */; /* IE6-9 fallback on horizontal gradient */;
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 	border-radius: 50%;
 	border: 15px #C18A30 solid;
 	box-shadow: 0px 0px 50px black;
@@ -55,14 +46,14 @@ p {
 
 #resultat {
 	font-family: 'Passion One', cursive;
-	font-weight: 700;
-	letter-spacing: 3px;
-	font-size: 12.8em;
-	color: #C18A30;
+	font-weight: 400;
+	letter-spacing: 9px;
+	font-size: 16.9em;
+	color: white;
 	text-align: center;
 	padding-top: 80px;
 	text-shadow: 0px 0px 30px #2B2623;
-	line-height: 70px;
+	line-height: 140px;
 	height: 120px;
 	border: 0px;
 	background-color: none;
@@ -114,18 +105,41 @@ p {
 }
 
 
+hi
 
 
 
+.modal {
+  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 110%;
+    margin-right: 40%;
 
+  }
+}
 
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#modalrejouergagne {
+	margin-right: 25%;
 
+}
 
-
-
-
-
-
-
+#modalrejouer {
+	margin-right: 25%;
+	
+}
